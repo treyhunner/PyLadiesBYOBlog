@@ -48,15 +48,17 @@ You can poke around at my code as you go along in this repository.
 
 4. Now, fork this repo: `$ git clone git@github.com:econchick/PyLadiesBYOBlog.git`  
 
-4. Edit the `settings.py` file to your own project.  You will need to make a random string of letters, numbers, and characters for `SECRET_KEY`.  Do not share your settings publically.
+5. Edit the `settings.py` file to your own project.  You will need to make a random string of letters, numbers, and characters for `SECRET_KEY`.  Do not share your settings publically.
 
-5. In PyLadiesBYOBlog directory from the command line, type: `python manage.py runserver`
+6. In PyLadiesBYOBlog directory from the command line, type: `python manage.py syncdb`
 
-6. Navigate to `localhost:8000/admin` and throw up a few blog posts.
+7. In PyLadiesBYOBlog directory from the command line, type: `python manage.py runserver`
 
-7. Navigate to `localhost:8000` to see your posts.
+8. Navigate to `localhost:8000/admin` and throw up a few blog posts.
 
-8. Deployment: **OPTIONAL**  If you want folks to see your blog, then I'd suggest deploying on [Heroku](http://heroku.com) or [OpenShift](http://openshift.redhat.com) (be wary, I had a difficult time deploying on OpenShift).  You will need an account with either, but due to the small size of your application, it will be free to put up online.  <br /><br />
+9. Navigate to `localhost:8000` to see your posts.
+
+10. Deployment: **OPTIONAL**  If you want folks to see your blog, then I'd suggest deploying on [Heroku](http://heroku.com) or [OpenShift](http://openshift.redhat.com) (be wary, I had a difficult time deploying on OpenShift).  You will need an account with either, but due to the small size of your application, it will be free to put up online.  <br /><br />
 Heroku has a great [how-to Deploy Django](https://devcenter.heroku.com/articles/django) using their services. 
 
 ADDITIONAL RESOURCES
